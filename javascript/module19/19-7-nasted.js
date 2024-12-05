@@ -12,3 +12,4 @@ const collage = {
 const rong = collage.unique.result.gpa;
 console.log(rong)
 console.log(collage.unique.color);
+console.log();
