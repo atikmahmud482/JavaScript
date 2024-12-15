@@ -21,6 +21,15 @@
             <li>shagayet</li>
             <li>bonobash</li>
         </ul>
+
+        <section class="fruits-container">
+            <h1 id="fruits-title">Fruits I like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Mango</li>
+            </ul>
+        </section>
     </main>
     <script src="/module24/dom.js"></script>
     <script>
@@ -32,6 +41,13 @@
         const allHeadings = document.getElementsByTagName('h1');
         for (const h1 of allHeadings) {
             console.log(h1.innerText)
+        }
+
+        //query selectorAll
+        const someLi = document.querySelectorAll('.fruits-container li')
+        // console.log(someLi);
+        for (const li of someLi) {
+            console.log(li.innerText);
         }
     </script>
 </body>
