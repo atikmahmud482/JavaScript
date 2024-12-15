@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="headers-title">
         <h1>Welcome to my dom</h1>
     </header>
 
@@ -30,26 +30,33 @@
                 <li>Mango</li>
             </ul>
         </section>
+        <section id="places-container">
+            <h1>hi</h1>
+        </section>
+        <section>
+            <h1> hello</h1>
+        </section>
     </main>
     <script src="/module24/dom.js"></script>
     <script>
         const liCollection = document.getElementsByTagName('li');
         for (const li of liCollection) {
-            console.log(li);
+            // console.log(li);
         }
 
         const allHeadings = document.getElementsByTagName('h1');
         for (const h1 of allHeadings) {
-            console.log(h1.innerText)
+            // console.log(h1.innerText)
         }
 
         //query selectorAll
         const someLi = document.querySelectorAll('.fruits-container li')
         // console.log(someLi);
         for (const li of someLi) {
-            console.log(li.innerText);
+            // console.log(li.innerText);
         }
     </script>
+    <script src="/module24/new.js"></script>
 </body>
 
 </html>
